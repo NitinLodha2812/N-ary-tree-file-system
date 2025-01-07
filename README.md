@@ -1,4 +1,4 @@
-## N-ary Tree Data Backup
+## N-ary Tree File System
 
 This project implements an efficient backup system using N-ary trees, leveraging the tree-like structure of directories in operating systems. The goal is to track and back up modified files by comparing hash trees, which represent the state of the file system. The key components of the project are:
 
