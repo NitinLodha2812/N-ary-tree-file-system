@@ -1,6 +1,6 @@
 ## N-ary Tree File System
 
-This project implements an efficient backup system using N-ary trees, leveraging the tree-like structure of directories in operating systems. The goal is to track and back up modified files by comparing hash trees, which represent the state of the file system. The key components of the project are:
+This project implements an efficient file system using N-ary trees, leveraging the tree-like structure of directories in operating systems. The goal is to track and back up modified files by comparing hash trees, which represent the state of the file system. The key components of the project are:
 
 N-ary Tree Construction: A N-ary tree (Merkle tree) is built from the file system, where each leaf node represents the hash of a file, and non-leaf nodes represent the hash of their children. This tree structure efficiently tracks changes in files by hashing data blocks. The implementation allows constructing the tree either from a file path or an existing hash tree stored in a text file. The tree is built using a parallelized DFS-like approach with OpenMP tasks to speed up the process.
 
